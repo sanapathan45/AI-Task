@@ -1,0 +1,17 @@
+# Python program to illustrate the different set operations:
+
+# sets
+S = {0, 2, 4, 6, 8};
+A = {1, 2, 3, 4, 5};
+
+# set union
+print("Union of S and A is",S | A)
+
+# set intersection
+print("Intersection of S and A is",S & A)
+
+# set difference
+print("Difference of S and A is",S - A)
+
+# set symmetric difference
+print("Symmetric difference of S and A is",S ^ A)
